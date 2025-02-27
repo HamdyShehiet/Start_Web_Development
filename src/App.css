@@ -304,3 +304,52 @@ section{
 .our-works .container .works-list .col{
     text-align: center;
 }
+.our-services .container{
+    gap: 55px;
+}
+.our-services .container .info{
+    text-align: center;
+    gap: 15px;
+    max-width: 450px;
+    width: 100%;
+}
+.our-services .container .services-list{
+    grid-template-columns: repeat(auto-fit, min(340px, 100%));
+    justify-content: center;
+    gap: 40px 80px;
+    width: 100%;
+}
+.our-services .container .services-list .service{
+    gap: 50px;
+    padding: 45px 30px;
+    box-shadow: 3px 4px 12px 1px var(--dark-color-25);
+}
+.our-services .container .services-list .service .service-details{
+    gap: 10px;
+    text-align: center;
+    font-family: var(--ff-work-sans);
+    color: var(--dark-color-100);
+}
+.our-services .container .services-list .service .service-details >span{
+    font-size: var(--fs-15px);
+}
+.our-services .container .services-list .service .service-details .price{
+    display: flex;
+    align-items: center;
+}
+.our-services .container .services-list .service .service-details .price>strong{
+    font-size: var(--fs-40px);
+}
+.our-services .container .services-list .service .service-details .price>span{
+    font-size: var(--fs-15px);
+    color: var(--dark-color-50);
+}
+.our-services .container .services-list .service .features{
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.our-services .container .services-list .service .features .feature{
+    align-items: center;
+    gap: 10px;
+}
