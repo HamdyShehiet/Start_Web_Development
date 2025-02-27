@@ -50,14 +50,6 @@ a{
     color: inherit;
     text-decoration: none;
 }
-input,
-button,
-textarea{
-    font: inherit;
-    color: inherit;
-    border: none;
-    outline: none;
-}
 img{
     max-width: 100%;
 }
@@ -123,6 +115,17 @@ p.description{
     background-color: var(--dark-color-100);
     color: var(--white-color-100);
 }
+.submit-btn{
+    display: inline-flex;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-family: var(--ff-work-sans);
+    font-size: var(--fs-20px);
+    background-color: var(--dark-color-100);
+    color: var(--white-color-100);
+    cursor: pointer;
+}
+/* components */
 header{
     position: sticky;
     top: 0;
@@ -352,4 +355,47 @@ section{
 .our-services .container .services-list .service .features .feature{
     align-items: center;
     gap: 10px;
+}
+.contact-us .container{
+    gap: 55px;
+}
+.contact-us .container .info{
+    text-align: center;
+    gap: 15px;
+    max-width: 450px;
+    width: 100%;
+}
+.contact-us .container .component{
+    grid-template-columns: repeat(auto-fit, min(575px, 100%));
+    justify-content: center;
+    align-items: center;
+    gap: 40px 30px;
+    width: 100%;
+}
+.contact-us .container .component .form-box form{
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-us .container .component .form-box form >div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--ff-work-sans);
+    color: var(--dark-color-100);
+}
+.contact-us .container .component .form-box form >div label{
+    font-size: var(--fs-20px);
+}
+.contact-us .container .component .form-box form >div input{
+    padding: 10px;
+}
+.contact-us .container .component .form-box form >div textarea{
+    padding: 10px;
+    min-width:100%;
+    max-width: 100%;
+    max-height: 300px;
+    min-height: 80px;
+}
+.contact-us .container .component .map iframe{
+    width: 100%;
 }
