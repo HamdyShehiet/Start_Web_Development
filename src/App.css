@@ -183,3 +183,103 @@ header .container nav ul li a{
         gap: 30px;
     }
 }
+section{
+    padding: var(--main-section-padding);
+}
+.similar-section-one .container article.info{
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+.similar-section-one .container .image{
+    text-align: center;
+}
+.similar-section-two .container{
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+.similar-section-two .container .info{
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    max-width: 450px;
+    width: 100%;
+}
+.hero{
+    background-color: var(--green-color-100);
+}
+.hero .container{
+    gap: 30px 40px;
+    min-height: calc(100vh - 170px);
+}
+.hero .container article.info h1,
+.hero .container article.info p.description,
+.hero .container article.info span.subtitle{
+    color: var(--white-color-100);
+}
+.hero .container article.info .link-btn{
+    margin-top: 10px;
+    background-color: var(--white-color-100);
+    color: var(--dark-color-100);
+}
+@media (min-width:992px) {
+    .hero .container{
+        grid-template-columns: 40% 1fr;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.partners .container .parteners-list{
+    grid-template-columns: repeat(auto-fit, min(180px ,100%));
+    justify-content: center;
+    align-items: center;
+    gap:30px 70px;
+    width: 100%;
+}
+.communication .container{
+    gap: 30px 80px;
+}
+@media (min-width:992px) {
+    .communication .container{
+        grid-template-columns: 1fr 40%;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.analyze .container{
+    gap: 30px 80px;
+}
+@media (min-width:992px) {
+    .analyze .container{
+        grid-template-columns: 40% 1fr;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.our-team .container .our-team-list{
+    grid-template-columns: repeat(auto-fit, min(265px ,100%));
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+.our-team .container .our-team-list .col{
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 12px 1px var(--dark-color-25);
+    background-color: var(--white-color-100);
+}
+.our-team .container .our-team-list .col .person-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.our-team .container .our-team-list .col .person-details span{
+    font-family: var(--ff-work-sans);
+    font-size: var(--fs-15px);
+    color: var(--dark-color-75);
+}
