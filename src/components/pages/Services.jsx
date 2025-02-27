@@ -23,23 +23,23 @@ function Services() {
                         </div>
                         <div className="features flex row">
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                         </div>
@@ -56,23 +56,23 @@ function Services() {
                         </div>
                         <div className="features flex row">
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                         </div>
@@ -89,23 +89,23 @@ function Services() {
                         </div>
                         <div className="features flex row">
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                             <div className="feature flex">
-                                <img src="./src/assets/icons/true.webp" alt="True Icon" />
+                                <img src="./assets/icons/true.webp" alt="True Icon" />
                                 <p className="special-description">lorem ipsum, dolor sit</p>
                             </div>
                         </div>
